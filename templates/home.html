@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block head %}
+  <h3>Home page</h3>
+{% endblock %}
+{% block content %}
+  {% for post in posts %}
+  <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <h3><a class="article-title" href="post/{{ post.post_name }}">{{ post.title }}</a></h3>
+          <small class="author-date text-muted">{{ post.author }} | {{ post.published }}</small>
+        </div>
+        <p class="article-content">{{ post.intro }}</p>
+      </div>
+    </article>
+  {% endfor %}
+{% endblock %}

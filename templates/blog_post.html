@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <br>
+    <h3 class="article-title">{{ post.title }}</h3>
+    <small class="author-date text-muted">{{ post.author }} | {{ post.published }}</small>
+    {{ post.html|emojify|safe }}
+{% endblock %}
+

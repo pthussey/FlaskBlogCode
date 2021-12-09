@@ -1,6 +1,4 @@
 name: flaskBlogCode
 dependencies:
- - emoji
  - Flask
- - Flask-FlatPages
  - Pygments

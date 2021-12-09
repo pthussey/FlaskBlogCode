@@ -1,4 +1,4 @@
 # flaskBlogCode
-This is the code I used to build my own personal blog using Flask.
+This is the code for my own personal blog I built using Flask.
 
-I used python version 3.9.7, and you should be able to recreate the environment I used for development with the requirements or yaml file.
+I used python version 3.9.7, and you should be able to recreate my development environment with the requirements or yaml file.
